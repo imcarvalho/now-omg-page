@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node": "^17.5.0",
+    "node-fetch": "^2.3.0",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^1.4.0",
+    "@types/node": "^18.11.18",
+    "@types/node-fetch": "^2.6.2",
+    "netlify-cli": "^13.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "books": "ts-node src/services/books.ts",
+    "tv": "ts-node src/services/tv.ts",
+    "music": "ts-node src/services/music.ts",
+    "update": "ts-node src/runUpdate.ts",
+    "build": "netlify env:import"
+  },
+  "module": "esnext"
+}
