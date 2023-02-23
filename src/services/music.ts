@@ -20,10 +20,7 @@ const getImage = (images: { size: string; '#text': string }[]) => {
 export async function getTopAlbums() {
   const albumsData = await fetch(getURL('gettopalbums'));
   const albumBody = await albumsData.json();
-  const albums = albumBody.topalbums.album
-    // lulz sorry JLo I have a reputation to maintain
-    .filter((album) => album.artist.name !== 'Jennifer Lopez')
-    .slice(0, 3);
+  const albums = albumBody.topalbums.album.slice(0, 3);
 
   const albumsFormatted = albums.map((album) => ({
     title: `${album.artist.name} - ${album.name}`,

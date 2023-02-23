@@ -15,10 +15,11 @@ export async function getBooks() {
     .then((data) => {
       const book = data.rss.channel.item;
 
+      // I never read more than 1 book at the same time
       return {
         title: book.title,
         authors: book.author_name,
-        link: book.link,
+        link: `https://www.goodreads.com/book/show/${book.book_id}`,
         image: book.book_medium_image_url,
       };
     });

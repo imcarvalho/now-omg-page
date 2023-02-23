@@ -66,6 +66,7 @@ const update = async () => {
   });
 };
 
+// This is the magic for Netlify scheduled functions ✨
 const runUpdate: Handler = async (event: HandlerEvent) => {
   console.log('Received event:', event);
 
