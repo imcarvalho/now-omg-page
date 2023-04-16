@@ -16,6 +16,10 @@ What I'm doing now ✨
 
 {BOOK}
 
+## 🕹 Playing
+
+{GAME}
+
 ## 🎧 Top Albums
 
 <div class="grid grid-music">

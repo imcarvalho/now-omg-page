@@ -9,6 +9,7 @@
     "@netlify/functions": "^1.4.0",
     "@types/node": "^18.11.18",
     "@types/node-fetch": "^2.6.2",
+    "cheerio": "^1.0.0-rc.12",
     "netlify-cli": "^13.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
@@ -17,6 +18,7 @@
     "books": "ts-node src/services/books.ts",
     "tv": "ts-node src/services/tv.ts",
     "music": "ts-node src/services/music.ts",
+    "games": "ts-node src/services/games.ts",
     "update": "ts-node src/runUpdate.ts",
     "build": "netlify env:import"
   },
