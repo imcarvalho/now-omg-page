@@ -4,6 +4,7 @@ import fetch from 'node-fetch';
 dotenv.config();
 
 export async function getShows() {
+  // lol variable is named trakt but I'm using serializd now and I'm too lazy to change the env vars
   const id = process.env.TRAKTID;
 
   const shows = await fetch(
