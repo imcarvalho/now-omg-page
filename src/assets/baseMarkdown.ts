@@ -18,11 +18,12 @@ What I'm doing now ✨
 
 ## 🕹 Playing
 
-<!--- the hardcode that is needed 
+<!--- the hardcode that is needed
 {GAME}
 -->
 
-![Legend of Zelda - Tears of the Kingdom](https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage.jpg)
+<img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage.jpg" alt="Legend of Zelda - Tears of the Kingdom" width="100%" />
+
 
 ## 🎧 Top Albums
 
