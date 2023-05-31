@@ -2703,10 +2703,15 @@ dot-prop@^7.0.0:
   dependencies:
     type-fest "^2.11.2"
 
-dotenv@^16.0.0, dotenv@^16.0.2, dotenv@^16.0.3:
+dotenv@^16.0.0, dotenv@^16.0.2:
   version "16.0.3"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
   integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+
+dotenv@^16.0.3:
+  version "16.1.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.1.2.tgz#5c62cefa33c9e034354f5828c06aeedc4acfe7f3"
+  integrity sha512-RiNjjDF5yr9NtjqJqmWYA/XZShmt3r8FtJgAaqTiYqb99SqT0+aw5xAwOIvjMyXsH/C9/fLNafFkkZDwRi1KHA==
 
 download@^8.0.0:
   version "8.0.0"
@@ -5490,10 +5495,10 @@ node-version-alias@^2.0.0:
     path-exists "^4.0.0"
     semver "^7.3.5"
 
-node@^17.5.0:
-  version "17.9.1"
-  resolved "https://registry.yarnpkg.com/node/-/node-17.9.1.tgz#2f6094597b22e8d56c57c129bb88c91aa17c15b2"
-  integrity sha512-Jmv4WrsWcZI6/SEUF6G0+9R73yQnVN/9VQnqkC1s/VJrxUkwyCodnOQLvXEVqfh13RNeHpFO92cWxjV0TB5Rww==
+node@^18.0.0:
+  version "18.16.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-18.16.0.tgz#95fa0e48b868d6d8a59d8a86752b02d5fa11414a"
+  integrity sha512-xi2PRz7qrWfzNXCl7F0Y5wVQFIqsP2VZEOkdghIvyhTg3OBDTTPYX0rmB9vDDJ1f/TUA31ldFMnl0zNd4lhNqA==
   dependencies:
     node-bin-setup "^1.0.0"
 

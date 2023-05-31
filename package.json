@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "dotenv": "^16.0.3",
-    "node": "^17.5.0",
+    "node": "^18.0.0",
     "node-fetch": "^2.3.0",
     "xml2json": "^0.12.0"
   },
