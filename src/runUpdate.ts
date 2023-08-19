@@ -89,6 +89,8 @@ const runUpdate: Handler = async (event: HandlerEvent) => {
   };
 };
 
+runUpdate();
+
 const handler = schedule('@daily', runUpdate);
 
 export { handler };
