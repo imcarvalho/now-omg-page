@@ -15,6 +15,10 @@ export async function getBooks() {
     .then((data) => {
       const book = data.rss.channel.item;
 
+      if (book === undefined){
+        return undefined;
+      }
+
       // I never read more than 1 book at the same time
       return {
         title: book.title,
