@@ -49,7 +49,7 @@ const getContent = async () => {
 
   return replaceKeys({
     tv: formattedShows,
-    book: `[![${book.title}](${book.image})](${book.link})\n`,
+    book: book !== undefined ? `[![${book.title}](${book.image})](${book.link})\n` : 'No books right now',
     game: formattedGame,
     albums: formattedAlbums,
   });
