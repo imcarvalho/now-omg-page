@@ -8,7 +8,7 @@ export async function getShows() {
   const id = process.env.TRAKTID;
 
   const shows = await fetch(
-    `https://www.serializd.com/api/user/${id}/currently_watching_page/1?sort_by=showName_asc#`
+    `https://www.serializd.com/api/user/${id}/currently_watching?sort_by=showName_asc`
   )
     .then((response) => response.json())
     .then((data) =>
