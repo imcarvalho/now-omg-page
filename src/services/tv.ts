@@ -8,7 +8,12 @@ export async function getShows() {
  const id = process.env.TRAKTID;
 
  const shows = await fetch(
-  `https://www.serializd.com/api/user/${id}/currently_watching_page/1?sort_by=date_added_desc`
+  `https://www.serializd.com/api/user/${id}/currently_watching_page/1?sort_by=date_added_desc`,
+  {
+   headers: {
+    'X-Requested-With': 'serializd_vercel',
+   },
+  }
  )
   .then((response) => response.json())
   .then(({ items }) =>
