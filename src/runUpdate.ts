@@ -81,16 +81,16 @@ const update = async () => {
 update();
 
 // This is the magic for Netlify scheduled functions ✨
-const runUpdate: Handler = async (event: HandlerEvent) => {
-  console.log('Received event:', event);
+// const runUpdate: Handler = async (event: HandlerEvent) => {
+//   console.log('Received event:', event);
 
-  await update();
+//   await update();
 
-  return {
-    statusCode: 200,
-  };
-};
+//   return {
+//     statusCode: 200,
+//   };
+// };
 
-const handler = schedule('@daily', runUpdate);
+// const handler = schedule('@daily', runUpdate);
 
-export { handler };
+// export { handler };
